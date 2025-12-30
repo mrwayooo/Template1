@@ -1,0 +1,88 @@
+/* รีเซ็ตค่าพื้นฐาน */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4; /* สีพื้นหลังอ่อนๆ ให้ดูสบายตา */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ส่วน Title ด้านบนที่มีเส้นคั่น */
+.main-header {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333; /* เส้นใต้ Title ตามภาพร่าง */
+}
+
+.top-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* ส่วนกรอบเนื้อหา (Card) */
+.content-wrapper {
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.card-container {
+    background-color: white;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 15px; /* มุมโค้งมนตามรูปวาด */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.main-h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* กรอบใส่รูปภาพ */
+.image-box {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.sub-h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
